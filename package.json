@@ -1,0 +1,26 @@
+{
+  "name": "aws-nodejs-images-operation-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sewemark/aws-nodejs-images-operation-component.git"
+  },
+  "author": "Seweryn Markowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sewemark/aws-nodejs-images-operation-component/issues"
+  },
+  "homepage": "https://github.com/sewemark/aws-nodejs-images-operation-component#readme",
+  "dependencies": {
+    "aws-sdk": "^2.95.0",
+    "body-parser": "^1.17.2",
+    "crypto": "^1.0.1",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
+}
