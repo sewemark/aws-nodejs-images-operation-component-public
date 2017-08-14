@@ -11,6 +11,8 @@ var params = {
 var sqs = new AWS.SQS();
 
 sqs.receiveMessage(params, function(err, data) {
+    console.log("data222");
+    console.log(data);
     if (err) {
         console.log("Receive Error", err);
     } else {
