@@ -5,6 +5,6 @@
     "region": "us-east-2",
     "acl": "public-read",
     "x-amz-algorithm": "AWS4-HMAC-SHA256",
-    "success_action_status": "201"                                      
+    "success_action_status": "201"
 }
 
