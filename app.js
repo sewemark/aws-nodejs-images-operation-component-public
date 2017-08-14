@@ -17,6 +17,8 @@ var params = {
     WaitTimeSeconds: 0
 };
 
+var sqs = new AWS.SQS({apiVersion: '2012-11-05'});
+
 sqs.receiveMessage(params, function(err, data) {
     if (err) {
         console.log("Receive Error", err);
