@@ -21,6 +21,14 @@
     "body-parser": "^1.17.2",
     "crypto": "^1.0.1",
     "express": "^4.15.4",
-    "path": "^0.12.7"
-  }
+    "path": "^0.12.7",
+    "sharp": "^0.18.2"
+  },
+  "bucket": "sewemarkbucket",
+  "access_key": "AKIAJWMKWOHSHPFJ7XAQ",
+  "secret_key": "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",
+  "region": "us-east-2",
+  "acl": "public-read",
+  "x-amz-algorithm": "AWS4-HMAC-SHA256",
+  "success_action_status": "201"
 }
