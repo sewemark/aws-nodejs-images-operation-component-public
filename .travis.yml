@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+    - "6"
+deploy:
+  provider: s3
+  access_key_id: AKIAJWMKWOHSHPFJ7XAQ
+  secret_access_key: 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
+  bucket: sewemark-deploy-worker
+  upload-dir: server
+  on:
+    repo: sewemark/aws-nodejs-images-operation-component
