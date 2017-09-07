@@ -57,6 +57,16 @@ var rec = function () {
                                         console.log(info);
                                     }
                                 });
+                        }else{
+                            sharp(data.Body)
+                                .negate()
+                                .toFile(path, function (err, info) {
+                                    if (err) console.log(err);
+                                    else{
+                                        save(path);
+                                        console.log(info);
+                                    }
+                                });
                         }
                     }
 
